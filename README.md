@@ -5,12 +5,18 @@ We are using "University Physics Experiments" published by China University of M
 The manual details many experiments, including an introduction to the experiments, experimental purposes, content, operation steps, and tips.
 
 <p align="center">
-  <img src="imgs/ins.svg" alt="Dataset Overview" width="1000">
+  <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
 </p>
 
 Below is a sample manual for measuring the density of an object. For details on other experiments, please visit this manual.
 <p align="center">
-  <img src="imgs/ins.svg" alt="Dataset Overview" width="1000">
+  <img src="imgs/1.jpg" alt="Dataset Overview" width="900">
+</p>
+<p align="center">
+  <img src="imgs/2.jpg" alt="Dataset Overview" width="900">
+</p>
+<p align="center">
+  <img src="imgs/3.jpg" alt="Dataset Overview" width="900">
 </p>
 
 ## Experimental Types
