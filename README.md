@@ -20,8 +20,9 @@
 
 ## 🔍 Sample Manual for the Object Density Measurement Experiment
 
-**Below is a sample set of pages from the manual.**
 **To view the full instructions for all experiments, please refer to the complete manual.**
+
+**Below is a sample set of pages from the manual.**
 
 <p align="center">
   <img src="imgs/1.jpg" alt="Dataset Overview" width="900">
