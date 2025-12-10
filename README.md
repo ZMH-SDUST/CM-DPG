@@ -1,10 +1,10 @@
 # 📥 PhysScene dataset:
 
-## Experimental Manual
+## 📘 Experimental Manual
 
-**We are using "University Physics Experiments" published by China University of Mining and Technology Press, which is a textbook for the "13th Five-Year Plan" of higher education and has been widely used.**
+**We adopt the textbook “University Physics Experiments” published by China University of Mining and Technology Press, a widely used “13th Five-Year Plan” higher-education textbook in China.**
 
-**The manual details many experiments, including an introduction to the experiments, experimental purposes, content, operation steps, and tips.**
+**The manual includes comprehensive descriptions of physics experiments:**
 
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
