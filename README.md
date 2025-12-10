@@ -1,4 +1,4 @@
-# 📥 PhysScene dataset:
+# 📥 PhysScene dataset
 
 ## 📘 Experimental Manual
 
