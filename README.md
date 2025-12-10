@@ -1,5 +1,8 @@
 # 📥 PhysScene dataset:
 ## Experimental Manual
+<p align="center">
+  <img src="img/ins.svg" alt="Dataset Overview" width="1000">
+</p>
 ## Experimental Types
 ## Details of Object and relation
 ## Collection Setting
