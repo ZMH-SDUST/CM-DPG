@@ -13,13 +13,13 @@
 **Below is a sample manual for measuring the density of an object. For details on other experiments, please visit this manual.**
 
 <p align="center">
-  <img src="imgs/1.jpg" alt="Dataset Overview" width="400">
+  <img src="imgs/1.jpg" alt="Dataset Overview" width="900">
 </p>
 <p align="center">
-  <img src="imgs/2.jpg" alt="Dataset Overview" width="300">
+  <img src="imgs/2.jpg" alt="Dataset Overview" width="900">
 </p>
 <p align="center">
-  <img src="imgs/3.jpg" alt="Dataset Overview" width="200">
+  <img src="imgs/3.jpg" alt="Dataset Overview" width="900">
 </p>
 
 ## Experimental Types
@@ -31,13 +31,13 @@
 ## Details of Object and relation
 
 <p align="center">
-  <img src="imgs/1.png" alt="Dataset Overview" width="900">
+  <img src="imgs/1.png" alt="Dataset Overview" width="400">
 </p>
 <p align="center">
-  <img src="imgs/2.png" alt="Dataset Overview" width="900">
+  <img src="imgs/2.png" alt="Dataset Overview" width="300">
 </p>
 <p align="center">
-  <img src="imgs/3.png" alt="Dataset Overview" width="900">
+  <img src="imgs/3.png" alt="Dataset Overview" width="200">
 </p>
 
 ## Collection Setting
