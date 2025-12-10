@@ -60,6 +60,10 @@
 - **A multi-stage data cleaning pipeline was applied to remove blurry, obstructed, out-of-focus, and duplicated samples.**
 - **The figure below provides a visual overview of these components.**
 
+<p align="center">
+  <img src="imgs/物理实验多样性采集.jpg" alt="Dataset Overview" width="900">
+</p>
+
 
 ## ⬇️ Download Links
 
