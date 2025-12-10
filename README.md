@@ -29,6 +29,17 @@
 - **Rigid Body Inertia Determination**
 
 ## Details of Object and relation
+
+<p align="center">
+  <img src="imgs/1.png" alt="Dataset Overview" width="900">
+</p>
+<p align="center">
+  <img src="imgs/2.png" alt="Dataset Overview" width="900">
+</p>
+<p align="center">
+  <img src="imgs/3.png" alt="Dataset Overview" width="900">
+</p>
+
 ## Collection Setting
 ## Dowload
 - **Images can be download at [Here](https://drive.google.com/file/d/1WRcpXzVsI597LmUPnG0YXL2rx3aK_00a/view?usp=sharing)!**
