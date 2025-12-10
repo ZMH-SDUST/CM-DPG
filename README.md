@@ -69,7 +69,9 @@
 | **Annotations** | 👉 [Download Here](https://drive.google.com/file/d/1yhih6c3b5LQTz54PTSNnML-18Myx7Psu/view?usp=drive_link) |
 
 ## 👪 Team
-**Data collection and annotation were led by Minghao Zou, with contributions from one graduate student, Aihang Jiang, and eleven undergraduate students: Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu. We also extend our sincere gratitude to teacher Yongping Miao for his invaluable guidance throughout the entire process.**
+**Data collection and annotation were led by Minghao Zou, with contributions from one graduate student, Aihang Jiang, and eleven undergraduate students: Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu.**
+
+**We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.**
 
 ## 🔧 CM-DPG model:
 - **The code will be coming soon!**
