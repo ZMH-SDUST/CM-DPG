@@ -1,6 +1,6 @@
 # 📥 PhysScene dataset:
 ## Experimental Manual
-
+We are using "University Physics Experiments" published by China University of Mining and Technology Press, which is a textbook for the "13th Five-Year Plan" of higher education and has been widely used.
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="1000">
 </p>
