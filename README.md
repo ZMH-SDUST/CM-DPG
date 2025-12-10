@@ -6,6 +6,12 @@
 
 **The manual includes comprehensive descriptions of physics experiments:**
 
+Experimental introduction
+Objectives
+Apparatus and setup
+Operational procedures
+Precautions and notes
+
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
 </p>
