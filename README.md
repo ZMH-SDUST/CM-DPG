@@ -12,6 +12,21 @@
 - ▶️ **Operational procedures**
 - ⚠️ **Precautions and notes**
 
+### 📘 Experimental introduction  
+Overview of the experiment background and context.
+
+### 🎯 Experimental purpose  
+The primary goals and objectives of the experiment.
+
+### 🧪 Experimental content  
+Description of the key tasks and steps involved in the experiment.
+
+### ▶️ Operational procedures  
+Step-by-step workflow for conducting the experiment.
+
+### ⚠️ Precautions and notes  
+Safety concerns, operational tips, and important reminders.
+
 **The following figure shows the cover of the *University Physics Experiments* manual and a summary page of one representative experiment. These pages illustrate the structured descriptions—purposes, instruments, procedures, and operation flows—that serve as the foundation for the PhysScene dataset design and annotation.**
 
 <p align="center">
