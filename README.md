@@ -12,28 +12,16 @@
 - ▶️ **Operational procedures**
 - ⚠️ **Precautions and notes**
 
-### 📘 Experimental introduction  
-Overview of the experiment background and context.
-
-### 🎯 Experimental purpose  
-The primary goals and objectives of the experiment.
-
-### 🧪 Experimental content  
-Description of the key tasks and steps involved in the experiment.
-
-### ▶️ Operational procedures  
-Step-by-step workflow for conducting the experiment.
-
-### ⚠️ Precautions and notes  
-Safety concerns, operational tips, and important reminders.
-
 **The following figure shows the cover of the *University Physics Experiments* manual and a summary page of one representative experiment. These pages illustrate the structured descriptions—purposes, instruments, procedures, and operation flows—that serve as the foundation for the PhysScene dataset design and annotation.**
 
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
 </p>
 
-**Below is a sample manual for measuring the density of an object. For details on other experiments, please visit this manual.**
+## 🔍 Sample Manual for the Object Density Measurement Experiment
+
+**Below is a sample set of pages from the manual.**
+**To view the full instructions for all experiments, please refer to the complete manual.**
 
 <p align="center">
   <img src="imgs/1.jpg" alt="Dataset Overview" width="900">
