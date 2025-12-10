@@ -34,7 +34,7 @@
   <img src="imgs/1.png" alt="Dataset Overview" width="600">
 </p>
 <p align="center">
-  <img src="imgs/2.png" alt="Dataset Overview" width="600">
+  <img src="imgs/2.png" alt="Dataset Overview" width="500">
 </p>
 <p align="center">
   <img src="imgs/3.png" alt="Dataset Overview" width="600">
