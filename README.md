@@ -56,6 +56,9 @@
 </p>
 
 ## 🎥 Collection Settings
+- **To ensure high-quality and diverse visual data, we collected images across various laboratory environments with differences in angle, lighting, operator behavior, and experiment configurations.**
+- **A multi-stage data cleaning pipeline was applied to remove blurry, obstructed, out-of-focus, and duplicated samples.**
+- **The figure below provides a visual overview of these components.**
 
 
 ## ⬇️ Download Links
