@@ -23,6 +23,10 @@
 </p>
 
 ## Experimental Types
+- **Object Density Measurement**
+- **Spectrometer-Based Measurement**
+- **Surface Tension Measurement**
+- **Rigid Body Inertia Determination**
 
 ## Details of Object and relation
 ## Collection Setting
