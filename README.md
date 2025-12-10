@@ -12,6 +12,8 @@
 - ▶️ **Operational procedures**
 - ⚠️ **Precautions and notes**
 
+**The following figure shows the cover of the *University Physics Experiments* manual and a summary page of one representative experiment. These pages illustrate the structured descriptions—purposes, instruments, procedures, and operation flows—that serve as the foundation for the PhysScene dataset design and annotation.**
+
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
 </p>
