@@ -153,8 +153,6 @@ raw_phys_scene/
     +-- ...
 ```
 
-The raw directory can contain the original train/test folders from the released data. During conversion, images are collected into a single `data/phys_scene/images/` folder while keeping their original filenames.
-
 ### Annotation Conversion
 
 Convert raw PhysScene annotations into this project's scene-graph format:
