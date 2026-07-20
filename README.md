@@ -255,7 +255,7 @@ python main.py \
   --seed 1234 \
   --options \
     batch_size=4 \
-    num_rln_cat=27 \
+    num_rln_cat=39 \
     rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
     phys_scene_split_seed=1234 \
     phys_scene_test_ratio=0.2 \
@@ -279,7 +279,7 @@ python main.py \
   --num_workers 0 \
   --seed 1234 \
   --options \
-    num_rln_cat=27 \
+    num_rln_cat=39 \
     rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
     phys_scene_split_seed=1234 \
     phys_scene_test_ratio=0.2 \
