@@ -140,8 +140,6 @@ data/phys_scene/annotations/phys_scene_all.json
 data/phys_scene/annotations/phys_scene_dict.json
 ```
 
-If `phys_scene_all.json` and `phys_scene_dict.json` already exist, this conversion step can be skipped.
-
 Each item in `phys_scene_all.json` should contain fields like:
 
 ```json
