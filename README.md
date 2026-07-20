@@ -89,7 +89,7 @@
 
 **All baseline models were evaluated using the benchmark settings specified in their official implementations.**
 
-**The `Experimental Settings.md` file documents the details of our experimental setup, including:**
+**The `./Baselines/Experimental Settings.md` file documents the details of our experimental setup, including:**
 
 - **hyperparameter configuration;**
 - **experimental hardware;**
