@@ -238,8 +238,6 @@ rel_classes
 pred_dist = log(fg_matrix / fg_matrix.sum(2)[:, :, None] + 1e-3)
 ```
 
-Use only the training split to generate this file. Do not build it from `phys_scene_all.json`.
-
 ## Training
 
 ### CS-SGG on PhysScene
