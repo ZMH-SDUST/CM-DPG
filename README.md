@@ -255,7 +255,6 @@ python main.py \
   --seed 1234 \
   --options \
     batch_size=4 \
-    num_rln_cat=39 \
     rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
     phys_scene_split_seed=1234 \
     phys_scene_test_ratio=0.2 \
@@ -279,20 +278,9 @@ python main.py \
   --num_workers 0 \
   --seed 1234 \
   --options \
-    num_rln_cat=39 \
     rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
     phys_scene_split_seed=1234 \
     phys_scene_test_ratio=0.2 \
     phys_scene_regenerate_split=False
 ```
 
-## Notes
-
-- `--dataset_file phys_scene` selects the PhysScene dataset reader.
-- `--data_path ./data/phys_scene` should point to the PhysScene dataset root.
-- `num_rln_cat` must match the number of relation categories in `phys_scene_dict.json`.
-- `rln_freq_bias=data/phys_scene/phys_scene_stats.pt` enables the PhysScene subject-object predicate prior.
-- `phys_scene_all.json` is the unsplit full annotation file.
-- `phys_scene_train.json` is used for training and predicate-frequency reweighting.
-- `phys_scene_test.json` is used only for validation/testing.
-- Changing `phys_scene_split_seed` changes the train/test partition after regeneration.
