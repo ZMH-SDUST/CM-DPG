@@ -77,7 +77,7 @@
 
 **We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.**
 
-- # 📥  2. Baselines
+# 📥  2. Baselines
 
 **We benchmarked 11 open-source Scene Graph Generation (SGG) models on the PhysScene dataset.**
 
@@ -95,7 +95,7 @@
 - **experimental hardware;**
 - **data splitting details for Cs-SGG, OvD-SGG, and OvR-SGG settings.**
 
-- # 📥 3. CM-DPG model
+# 📥 3. CM-DPG model
 
 ## Setup
 
