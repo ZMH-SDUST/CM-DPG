@@ -23,6 +23,7 @@ seed = 1234
 ### 1. CS-SGG Setting
 
 For the **CS-SGG** setting, we performed a image-level random split.
+
 We also provided a video-level random split, please refer to trainval_video.txt and test_video.txt.
 
 ### 2. OvD-SGG Setting
