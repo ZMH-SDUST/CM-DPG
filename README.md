@@ -283,4 +283,12 @@ python main.py \
     phys_scene_test_ratio=0.2 \
     phys_scene_regenerate_split=False
 ```
+## Acknowledgement
 
+We thank:
+
+- [Scene-Graph-Benchmark.pytorch](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)
+- [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+- [OvSGTR](https://github.com/gpt4vision/OvSGTR)
+
+for their awesome open-source codes and models.
