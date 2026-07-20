@@ -209,7 +209,7 @@ PhysScene has 24 valid HOI predicates. The raw source predicate ids are not cont
 python tools/compact_phys_scene_predicates.py \
   --annotation-dir data/phys_scene/annotations \
   --seed 1234 \
-  --novel-ratio 0.2
+  --novel-ratio 0.3
 ```
 
 After compaction, predicate ids are contiguous from 1 to 24, while 0 remains `[UNK]`. Therefore `num_rln_cat` should be 25.
