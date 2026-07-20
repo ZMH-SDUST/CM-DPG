@@ -17,7 +17,7 @@ All experiments were conducted on the following hardware:
 We used `random.shuffle` to randomly shuffle the data before splitting. The random seed was fixed as:
 
 ```text
-Seed = 1234
+seed = 1234
 ```
 
 ### 1. CS-SGG Setting
