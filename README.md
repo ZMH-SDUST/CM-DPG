@@ -95,5 +95,5 @@
 - **experimental hardware;**
 - **data splitting details for Cs-SGG, OvD-SGG, and OvR-SGG settings.**
 
-- # 📥  CM-DPG model
+- # 📥 3. CM-DPG model
 
