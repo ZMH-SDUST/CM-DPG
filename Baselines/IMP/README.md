@@ -1,4 +1,4 @@
-# Project README
+# IMP
 
 This project builds upon the open-source implementation provided by [danfeix/scene-graph-tf-release](https://github.com/danfeix/scene-graph-tf-release).
 
