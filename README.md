@@ -262,6 +262,8 @@ python main.py \
     phys_scene_regenerate_split=False
 ```
 
+By switching the configuration file from Cs-SGG to OvD-SGG or OvR-SGG, training or testing under other forms of supervision can be performed.
+
 ## Evaluation
 
 Evaluate a trained PhysScene checkpoint:
