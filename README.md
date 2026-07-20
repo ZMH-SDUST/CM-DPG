@@ -151,9 +151,9 @@ Each item in `phys_scene_all.json` should contain fields like:
   "file_name": "images/10_13_1.jpg",
   "width": 640,
   "height": 480,
-  "boxes": [[x1, y1, x2, y2]],
-  "labels": [1],
-  "edges": [[0, 1, 3]]
+  "boxes": [[x1, y1, x2, y2]......],
+  "labels": [1......],
+  "edges": [[0, 1, 3]......]
 }
 ```
 
