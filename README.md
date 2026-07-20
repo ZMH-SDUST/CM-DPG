@@ -137,25 +137,9 @@ data/phys_scene/
     +-- phys_scene_dict.json
 ```
 
-The image filenames must be preserved. Do not add prefixes such as `train_` or `test_`, because PhysScene annotations are matched to images by the original filename.
-
-### Raw Data Layout
-
-Place the original PhysScene data in a raw directory, for example:
-
-```text
-raw_phys_scene/
-+-- images/
-|   +-- train/
-|   +-- test/
-+-- annotations/
-    +-- HOI mapping CSV file
-    +-- ...
-```
-
 ### Annotation Conversion
 
-Convert raw PhysScene annotations into this project's scene-graph format:
+Convert raw PhysScene annotations into this project's scene-graph format (take HOI as an example):
 
 ```bash
 python tools/convert_phys_scene.py \
