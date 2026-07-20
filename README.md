@@ -262,30 +262,6 @@ python main.py \
     phys_scene_regenerate_split=False
 ```
 
-### Original VG CS-SGG
-
-For Visual Genome, keep the VG data path and VG-specific options:
-
-```bash
-python main.py \
-  --output_dir ./logs/ovsgtr_vg_swint_full \
-  -c ./config/GroundingDINO_SwinT_Cs-SGG.py \
-  --data_path ./data \
-  --dataset_file vg \
-  --pretrain_model_path ./GroundingDINO/weights/groundingdino_swint_ogc.pth \
-  --num_workers 0 \
-  --seed 1234 \
-  --options \
-    dn_scalar=100 \
-    embed_init_tgt=TRUE \
-    dn_label_coef=1.0 \
-    dn_bbox_coef=1.0 \
-    use_ema=False \
-    dn_box_noise_scale=1.0 \
-    eval_before_train=False \
-    batch_size=4
-```
-
 ## Evaluation
 
 Evaluate a trained PhysScene checkpoint:
