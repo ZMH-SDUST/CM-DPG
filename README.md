@@ -97,7 +97,7 @@
 
 - # 📥 3. CM-DPG model
 
-Setup
+## Setup
 
 Install PyTorch and project dependencies:
 
@@ -120,13 +120,6 @@ mkdir -p $PWD/GroundingDINO/weights/
 wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth -O $PWD/GroundingDINO/weights/groundingdino_swint_ogc.pth
 wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth -O $PWD/GroundingDINO/weights/groundingdino_swinb_cogcoor.pth
 ```
-
-On Windows PowerShell, the equivalent directory command is:
-
-```powershell
-New-Item -ItemType Directory -Force $PWD\GroundingDINO\weights
-```
-
 ## Dataset Preparation
 
 After preparation, PhysScene should follow this structure:
