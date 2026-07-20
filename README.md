@@ -77,5 +77,7 @@
 
 **We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.**
 
-## 🔧 CM-DPG model:
-- **The code will be coming soon!**
+- # 📥  Baselines
+
+- # 📥  CM-DPG model
+
