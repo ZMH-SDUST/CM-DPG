@@ -93,7 +93,7 @@
 
 - **hyperparameter configuration;**
 - **experimental hardware;**
-- **data splitting details for all supervised settings.**
+- **data splitting details for Cs-SGG, OvD-SGG, and OvR-SGG settings.**
 
 - # 📥  CM-DPG model
 
