@@ -4,7 +4,7 @@ This project uses or refers to **SS R-CNN**, introduced in the paper **Structure
 
 We sincerely thank the authors for their contribution to language-supervised and open-vocabulary scene graph generation and for releasing their implementation, which provided an important reference for this work.
 
-Project repository: [MCG-NJU/Structured-Sparse-RCNN](https://github.com/zyong812/VS3_CVPR23)
+Project repository: [MCG-NJU/Structured-Sparse-RCNN](https://github.com/MCG-NJU/Structured-Sparse-RCNN)
 
 The corresponding paper is:
 
