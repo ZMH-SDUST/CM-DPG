@@ -97,7 +97,6 @@ Our dataset covers 4 fundamental physics experiments:
   <img src="imgs/物理实验多样性采集.jpg" alt="Dataset Overview" width="700">
 </p>
 
-
 ### ⬇️ Download Links
 
 | Type        | Link |
@@ -112,6 +111,30 @@ The annotation package contains one JSON file and two CSV mapping files.
 
 ### 👪 Team
 Data collection and annotation were led by Minghao Zou, with contributions from Aihang Jiang, Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu. We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.
+
+### License
+
+PhysScene is released under the CC BY-NC 4.0 License. The dataset may be used for non-commercial research and academic purposes with appropriate attribution. Commercial use is prohibited without prior permission. Users are expected to:
+
+* **Use the data responsibly and ethically**
+* **Avoid attempts to identify or contact participants**
+* **Comply with all applicable laws and institutional guidelines**
+
+### Human Subjects
+
+Participants were informed about the purpose and procedure of the data collection in advance. Participation was voluntary, and individuals had the right to decline or withdraw at any time.
+
+### Privacy & Anonymization
+
+All data has been reviewed to minimize personally identifiable information.
+
+### Ethical Compliance
+
+The data collection process follows standard ethical guidelines for human-subject research.
+
+### Release Status
+
+The current version of the dataset has been fully released. Additional experimental types and more comprehensive annotations will be continuously updated and made available at this repository.
 
 ## 📥  2. Baselines
 
