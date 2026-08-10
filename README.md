@@ -172,11 +172,6 @@ pip install -r requirements.txt
 cd ./cmdpg
 python setup.py install
 cd ..
-```
-
-Download pretrained weights:
-
-```bash
 mkdir checkpoints
 ```
 Download the pretrained checkpoints from the following links:
