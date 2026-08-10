@@ -160,7 +160,7 @@ The `./Baselines/Experimental Settings.md` file documents the details of our exp
 
 ## 📥 3. CM-DPG Model
 
-### Setup
+### (1) Setup
 
 Install PyTorch and project dependencies:
 
@@ -194,7 +194,7 @@ CM-DPG/
 └── setup.py
 ```
 
-### Dataset Preparation
+### (2) Dataset Preparation
 
 ```bash
 mkdir data
