@@ -199,7 +199,6 @@ CM-DPG/
 ```bash
 mkdir data
 ```
-
 #### Visual Genome
 
 Download the processed Visual Genome data from [here](https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz).
@@ -287,7 +286,7 @@ Here, `full` corresponds to the CS-SGG setting, `ovd` corresponds to the OVD-SGG
 
 #### Dataset Splits
 
-##### Visual Genome
+* ##### Visual Genome
 
 For Visual Genome, we follow the processed VG150 split used in OvSGTR. Since part of the original VG150 test images may have been seen during GroundingDINO pretraining, we use the cleaned split field `split_GLIPunseen` in `VG-SGG.h5`.
 
@@ -313,7 +312,7 @@ In the OVR-SGG setting, approximately 30% of the relation categories are treated
 
 The exact base/unseen label sets follow the configuration and label mapping files provided with the project.
 
-##### PhysScene
+* ##### PhysScene
 
 For PhysScene, the image-level annotations are sorted by file name and then split with a fixed random seed.
 
