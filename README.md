@@ -374,7 +374,7 @@ python main.py \
 --dataset_file
 phys_scene
 --pretrain_model_path
-./checkpoints/swinb_cogcorr.pth
+./checkpoints/swinb_cogcoor.pth
 --num_workers
 4
 --options
@@ -403,7 +403,7 @@ python main.py \
 --dataset_file
 phys_scene
 --pretrain_model_path
-./checkpoints/swinb_cogcorr.pth
+./checkpoints/swinb_cogcoor.pth
 --num_workers
 4
 --options
@@ -430,7 +430,7 @@ python main.py \
 --dataset_file
 phys_scene
 --pretrain_model_path
-./checkpoints/swinb_cogcorr.pth
+./checkpoints/swinb_cogcoor.pth
 --num_workers
 4
 --options
