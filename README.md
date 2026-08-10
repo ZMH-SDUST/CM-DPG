@@ -478,6 +478,7 @@ use_test_set=True
 Use the common OVD-SGG config and select PhysScene through command-line arguments:
 
 ```bash
+python main.py \
 --output_dir
 ./logs/phys_scene_swinb_ovd_eval
 -c
@@ -502,7 +503,8 @@ use_test_set=True
 
 #### OVR-SGG on PhysScene
 
-```bash
+```text
+python main.py \
 --output_dir
 ./logs/phys_scene_swinb_ovr_eval
 -c
