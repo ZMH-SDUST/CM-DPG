@@ -178,6 +178,7 @@ Download pretrained weights:
 
 ```bash
 mkdir checkpoints
+```
 Download the pretrained checkpoints from the following links:
 
 | Backbone | Checkpoint |
@@ -186,6 +187,7 @@ Download the pretrained checkpoints from the following links:
 | Swin-B | [Download](https://drive.google.com/file/d/1-AJp180OmsLrNQICdi6oyoEfC1zDs2Iz/view?usp=drive_link) |
 
 After downloading, the project should be organized as follows:
+```bash
 CM-DPG/
 ├── checkpoints/
 │   ├── groundingdino_swint_ogc.pth
