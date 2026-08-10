@@ -359,7 +359,7 @@ We also provide video-level split lists for PhysScene to support reproducible ev
 
 ### (4) Training
 
-### CS-SGG on PhysScene
+#### CS-SGG on PhysScene
 
 Use the common CS-SGG config and select PhysScene through command-line arguments:
 
@@ -385,10 +385,67 @@ dn_bbox_coef=1.0
 use_ema=False
 dn_box_noise_scale=1.0
 eval_before_train=False
-batch_size=2
+batch_size=4
 ```
 
-By switching the configuration file from Cs-SGG to OvD-SGG or OvR-SGG, training or testing under other forms of supervision can be performed.
+#### OVD-SGG on PhysScene
+
+Use the common OVD-SGG config and select PhysScene through command-line arguments:
+
+```bash
+python main.py \
+--output_dir
+./logs/phys_scene_swinB_ovd
+-c
+./config/SwinB_phys_ovd.py
+--data_path
+./data
+--dataset_file
+phys_scene
+--pretrain_model_path
+./checkpoints/swinb_cogcorr.pth
+--num_workers
+4
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+dn_box_noise_scale=1.0
+eval_before_train=False
+batch_size=4
+```
+
+#### OVR-SGG on PhysScene
+
+```bash
+python main.py \
+--output_dir
+./logs/phys_scene_swint_ovr
+-c
+./config/SwinB_phys_ovr.py
+--data_path
+./data
+--dataset_file
+phys_scene
+--pretrain_model_path
+./checkpoints/swinb_cogcorr.pth
+--num_workers
+4
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+dn_box_noise_scale=1.0
+eval_before_train=False
+batch_size=4
+```
+
+Use the common OVR-SGG config and select PhysScene through command-line arguments:
+
 
 For PhysScene OVD training, add:
 
