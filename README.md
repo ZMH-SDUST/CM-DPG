@@ -200,8 +200,72 @@ CM-DPG/
 └── setup.py
 ```
 
-## Dataset Preparation
+### Dataset Preparation
 
+```bash
+mkdir data
+```
+
+#### Visual Genome
+
+Download the processed Visual Genome data from:
+
+[https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz](https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz)
+
+After downloading, extract `vg_data.tar.gz` and place the extracted `visual_genome/` folder under `data/`.
+
+The Visual Genome directory should be organized as follows:
+
+```text
+data/
+└── visual_genome/
+    ├── VG_100K/
+    ├── stanford_filtered/
+    │   ├── VG-SGG.h5
+    │   ├── VG-SGG-dicts.json
+    │   └── image_data.json
+    ├── final_mixed_train_no_coco.json
+    ├── vg_stats.pt
+    └── zeroshot_triplet.pytorch
+```
+
+#### PhysScene
+
+Place the PhysScene dataset under `data/PhysScene/`.
+
+The PhysScene directory should be organized as follows:
+
+```text
+data/
+└── PhysScene/
+    ├── image/
+    └── annotation/
+        ├── annotation.json
+        ├── object_categories.csv
+        └── relation_categories.csv
+```
+
+After preparing both datasets, the final `data/` directory should be organized as follows:
+
+```text
+CM-DPG/
+└── data/
+    ├── PhysScene/
+    │   ├── image/
+    │   └── annotation/
+    │       ├── annotation.json
+    │       ├── object_categories.csv
+    │       └── relation_categories.csv
+    └── visual_genome/
+        ├── VG_100K/
+        ├── stanford_filtered/
+        │   ├── VG-SGG.h5
+        │   ├── VG-SGG-dicts.json
+        │   └── image_data.json
+        ├── final_mixed_train_no_coco.json
+        ├── vg_stats.pt
+        └── zeroshot_triplet.pytorch
+```
 
 ## Training
 
