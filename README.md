@@ -554,3 +554,13 @@ We thank:
 - [OvSGTR](https://github.com/gpt4vision/OvSGTR)
 
 for their awesome open-source codes and models.
+
+If you use the CM-DPG model or code, please cite:
+
+```bibtex
+@article{zou2026cmdpg,
+  title={Modeling Scientific Experiment Scenes: Dataset and Model},
+  author={Zou, Minghao and Zeng, Qingtian and Liu, Shangkun and Meng, Yanda and Yue, Guanghui and Zhao, Baoquan and Saddik, Abdulmotaleb El and Zhou, Wei},
+  journal={arXiv preprint arXiv:2608.02892},
+  year={2026}
+}
