@@ -11,7 +11,7 @@ The repository consists of three connected parts:
 - **CM-DPG Model**: the proposed cross-modal dual-path framework designed to address long-tailed predicate distributions and the visual-textual semantic gap.
 
 
-The **PhysScene dataset paper** has been accepted by the **ACM International Conference on Multimedia (ACM MM 2026) Dataset Track**.
+The **PhysScene dataset paper** has been accepted by the **ACM International Conference on Multimedia (ACM MM 2026)**.
 
 Building upon PhysScene, this extended work further analyzes two key challenges in scientific experiment scene graph generation: **long-tailed predicate distributions** and the **visual-textual semantic gap**. To address these challenges, we propose **CM-DPG**, a model for robust open-vocabulary scene graph generation in scientific experiment scenes.
 
