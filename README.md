@@ -105,6 +105,11 @@ Our dataset covers 4 fundamental physics experiments:
 | **Images**      | 👉 [Download Here](https://drive.google.com/file/d/1TFqrm0HJSXRIGNiXXGiQIR3Qp6FmW4M9/view?usp=sharing) |
 | **Annotations** | 👉 [Download Here](https://drive.google.com/file/d/15YuzKB8s9RPYN30GzbgEJHAmcseA0aWP/view?usp=drive_link) |
 
+The annotation package contains one JSON file and two CSV mapping files.
+- **annotation.json** records the scene graph annotations in an image-level format. For each image, it provides object annotations, including object IDs, object category IDs, and bounding boxes, as well as relation annotations, including subject/object object IDs, relation category IDs, and relation types.
+- **object_categories.csv** provides the ID-to-category mapping for object classes.
+- **relation_categories.csv** provides the ID-to-category mapping for relation classes.
+
 ### 👪 Team
 Data collection and annotation were led by Minghao Zou, with contributions from Aihang Jiang, Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu. We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.
 
