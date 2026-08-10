@@ -366,7 +366,7 @@ Use the common CS-SGG config and select PhysScene through command-line arguments
 ```bash
 python main.py \
  --output_dir
-./logs/phys_scene_swinB_full
+./logs/phys_scene_swinb_full
 -c
 ./config/SwinB_phys_full.py
 --data_path
@@ -395,7 +395,7 @@ Use the common OVD-SGG config and select PhysScene through command-line argument
 ```bash
 python main.py \
 --output_dir
-./logs/phys_scene_swinB_ovd
+./logs/phys_scene_swinb_ovd
 -c
 ./config/SwinB_phys_ovd.py
 --data_path
@@ -422,7 +422,7 @@ batch_size=4
 ```bash
 python main.py \
 --output_dir
-./logs/phys_scene_swint_ovr
+./logs/phys_scene_swinb_ovr
 -c
 ./config/SwinB_phys_ovr.py
 --data_path
@@ -443,50 +443,88 @@ dn_box_noise_scale=1.0
 eval_before_train=False
 batch_size=4
 ```
+### (5) Inference
 
-Use the common OVR-SGG config and select PhysScene through command-line arguments:
+#### CS-SGG on PhysScene
 
-
-For PhysScene OVD training, add:
-
-```bash
---options \
-  sg_ovd_mode=True \
-  phys_scene_ov_split_seed=1234 \
-  phys_scene_ov_novel_ratio=0.3
-```
-
-For PhysScene OVR training, add:
-
-```bash
---options \
-  sg_ovr_mode=True \
-  sgg_mode=ovr \
-  phys_scene_ov_split_seed=1234 \
-  phys_scene_ov_novel_ratio=0.3
-```
-
-## Evaluation
-
-Evaluate a trained PhysScene checkpoint:
+Use the common CS-SGG config and select PhysScene through command-line arguments:
 
 ```bash
 python main.py \
-  --eval \
-  --resume ./logs/phys_scene_cs_sgg/checkpoint.pth \
-  --output_dir ./logs/phys_scene_cs_sgg_eval \
-  -c ./config/GroundingDINO_SwinT_Cs-SGG.py \
-  --data_path ./data/phys_scene \
-  --dataset_file phys_scene \
-  --num_workers 0 \
-  --seed 1234 \
-  --options \
-    rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
-    phys_scene_split_seed=1234 \
-    phys_scene_test_ratio=0.2 \
-    phys_scene_val_ratio=0.1 \
-    phys_scene_regenerate_split=False
+ --output_dir
+./logs/phys_scene_swinb_full_eval
+-c
+./config/SwinB_phys_full.py
+--data_path
+./data
+--eval
+--resume
+./logs/phys_scene_swinb_full/checkpoint.pth
+--dataset_file
+phys_scene
+--num_workers
+0
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+use_test_set=True
 ```
+
+#### OVD-SGG on PhysScene
+
+Use the common OVD-SGG config and select PhysScene through command-line arguments:
+
+```bash
+--output_dir
+./logs/phys_scene_swinb_ovd_eval
+-c
+./config/SwinB_phys_ovd.py
+--data_path
+./data
+--eval
+--resume
+./logs/phys_scene_swinb_ovd/checkpoint.pth
+--dataset_file
+phys_scene
+--num_workers
+0
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+use_test_set=True
+```
+
+#### OVR-SGG on PhysScene
+
+```bash
+--output_dir
+./logs/phys_scene_swinb_ovr_eval
+-c
+./config/SwinB_phys_ovr.py
+--data_path
+./data
+--eval
+--resume
+./logs/phys_scene_swinb_ovr/checkpoint.pth
+--dataset_file
+phys_scene
+--num_workers
+0
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+use_test_set=True
+```
+
 ## Acknowledgement
 
 We thank:
