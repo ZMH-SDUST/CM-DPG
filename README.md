@@ -259,6 +259,92 @@ CM-DPG/
         └── zeroshot_triplet.pytorch
 ```
 
+### (3) Experimental Settings and Reproducibility
+
+#### Configuration Files
+
+We provide complete configuration files for two datasets, Visual Genome and PhysScene, under three supervision settings: closed-set scene graph generation (CS-SGG), open-vocabulary object detection scene graph generation (OVD-SGG), and open-vocabulary relation scene graph generation (OVR-SGG).
+
+The configuration files are located in the `config/` directory and can be used directly for training and evaluation.
+
+```text
+config/
+├── SwinT_vg_full.py
+├── SwinT_vg_ovd.py
+├── SwinT_vg_ovr.py
+├── SwinB_vg_full.py
+├── SwinB_vg_ovd.py
+├── SwinB_vg_ovr.py
+├── SwinT_phys_full.py
+├── SwinT_phys_ovd.py
+├── SwinT_phys_ovr.py
+├── SwinB_phys_full.py
+├── SwinB_phys_ovd.py
+└── SwinB_phys_ovr.py
+```
+
+Here, `full` corresponds to the CS-SGG setting, `ovd` corresponds to the OVD-SGG setting, and `ovr` corresponds to the OVR-SGG setting.
+
+#### Dataset Splits
+
+##### Visual Genome
+
+For Visual Genome, we follow the processed VG150 split used in OvSGTR. Since part of the original VG150 test images may have been seen during GroundingDINO pretraining, we use the cleaned split field `split_GLIPunseen` in `VG-SGG.h5`.
+
+The split is controlled by:
+
+```python
+vg_roidb_key = "split_GLIPunseen"
+```
+
+The dataset split is defined as follows:
+
+| Split | Protocol |
+|---|---|
+| Train | Images with `split_GLIPunseen == 0`, excluding the first `num_val_im` images |
+| Validation | The first `num_val_im` images from `split_GLIPunseen == 0`; by default, `num_val_im = 5000` |
+| Test | Images with `split_GLIPunseen == 2` |
+
+In the CS-SGG setting, all object categories and relation categories are used for training and evaluation.
+
+In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, annotations are restricted to base object categories, while validation and test keep the full object label space.
+
+In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, annotations containing unseen relation categories are removed, while validation and test keep the full relation label space.
+
+The exact base/unseen label sets follow the configuration and label mapping files provided with the project.
+
+##### PhysScene
+
+For PhysScene, the image-level annotations are sorted by file name and then split with a fixed random seed.
+
+```python
+split_seed = 42
+```
+
+The default split ratio is:
+
+| Split | Ratio |
+|---|---|
+| Train | 70% |
+| Validation | 10% |
+| Test | 20% |
+
+In the CS-SGG setting, all object categories and relation categories are used for training and evaluation.
+
+In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, objects belonging to unseen categories are removed from the training annotations, while validation and test keep the full object label space.
+
+In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, relations belonging to unseen categories are removed from the training annotations, while validation and test keep the full relation label space.
+
+The exact base/unseen label sets are defined in the configuration files and the label mapping files released with PhysScene.
+
+We also provide video-level split lists for PhysScene to support reproducible evaluation under video-level separation:
+
+| Split List | Link |
+|---|---|
+| Video-level split list 1 | [Download](https://drive.google.com/file/d/1ajiVJV5ckh43GZWTkC1EQFBMaJmg233W/view?usp=drive_link) |
+| Video-level split list 2 | [Download](https://drive.google.com/file/d/1Q38ds7et0LjlFyLv8clHX9gfLC0rldX4/view?usp=drive_link) |
+
+
 ## Training
 
 ### CS-SGG on PhysScene
