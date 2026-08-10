@@ -177,9 +177,12 @@ cd ..
 Download pretrained weights:
 
 ```bash
-mkdir -p $PWD/GroundingDINO/weights/
-wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth -O $PWD/GroundingDINO/weights/groundingdino_swint_ogc.pth
-wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth -O $PWD/GroundingDINO/weights/groundingdino_swinb_cogcoor.pth
+mkdir checkpoints
+download checkpoint from (https://drive.google.com/file/d/1ePSx_qtXqkh-zZAUpvwltZwUY1Ugrwwv/view?usp=drive_link) and (https://drive.google.com/file/d/1-AJp180OmsLrNQICdi6oyoEfC1zDs2Iz/view?usp=drive_link).
+CM-DPG/
+├── checkpoints/
+│   ├── groundingdino_swint_ogc.pth
+│   └── groundingdino_swinb_cogcoor.pth
 ```
 ## Dataset Preparation
 
