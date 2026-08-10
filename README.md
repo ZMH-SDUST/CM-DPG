@@ -188,7 +188,6 @@ CM-DPG/
 │   ├── swint_ogc.pth
 │   └── swinb_cogcoor.pth
 ├── config/
-├── data/
 ├── datasets/
 ├── cmdpg/
 ├── main.py
