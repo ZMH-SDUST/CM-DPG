@@ -547,7 +547,7 @@ use_ema=False
 use_test_set=True
 ```
 
-## Acknowledgement
+### (7) Acknowledgement
 
 We thank:
 
