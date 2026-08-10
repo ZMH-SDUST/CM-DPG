@@ -11,3 +11,6 @@ For detailed model configurations, please refer to the related code repositories
 All experiments were conducted on the following hardware:
 
 - 4 NVIDIA RTX 3090 GPUs
+
+## Data Splitting
+The data splitting settings are consistent with those of CM-DPG, please refer to the splitting specifications for CM-DPG.
