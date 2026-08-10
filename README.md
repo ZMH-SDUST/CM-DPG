@@ -12,7 +12,7 @@ The repository consists of three connected parts:
 
 The **PhysScene dataset paper** has been accepted by the **ACM International Conference on Multimedia (ACM MM 2026)**.
 
-## 📚 Citation
+📚 Citation
 
 If you use the PhysScene dataset, please cite:
 
