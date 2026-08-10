@@ -358,19 +358,20 @@ We also provide video-level split lists for PhysScene to support reproducible ev
 **The dataset loading and split settings for both Visual Genome and PhysScene can be accessed in the files under the `datasets/` directory.**
 
 ### (4) Mapping Between Paper Modules and Code
+The core implementation files of CM-DPG are located under the model and dataset modules. The following table maps the main paper components to their implementation.
 
 | Paper module / equation | Implementation |
 |---|---|
-| Text self-attention in D-SGOD | `cmdpg/groundingdino/models/GroundingDINO/transformer.py`, `TransformerEncoder.text_layers` |
-| C-MME | `cmdpg/groundingdino/models/GroundingDINO/transformer.py`, `BiAttentionBlock` / `TransformerEncoder.fusion_layers` |
-| Deformable visual self-attention | `cmdpg/groundingdino/models/GroundingDINO/transformer.py`, `DeformableTransformerEncoderLayer` |
-| D-SGOD decoder | `cmdpg/groundingdino/models/GroundingDINO/transformer.py`, `TransformerDecoder` |
-| G-VRD module definition | `cmdpg/groundingdino/models/GroundingDINO/groundingdino.py`, `GroundingDINO.__init__` |
-| G-VRD visual branch / Eq. (10) | `cmdpg/groundingdino/models/GroundingDINO/losses.py`, `SetCriterion.build_pair_relation_feature`; `graph_infer.py`, `graph_infer` |
-| G-VRD geometric branch | `cmdpg/groundingdino/models/GroundingDINO/spatial.py`, `compute_spatial_encodings`; `groundingdino.py`, `spatial_head` / `spatial_head_ovr` |
-| Visual-geometric fusion | `cmdpg/groundingdino/models/GroundingDINO/losses.py`, `SetCriterion.loss_edges`; `graph_infer.py`, `graph_infer` |
-| Open-vocabulary relation-text similarity | `cmdpg/groundingdino/models/GroundingDINO/losses.py`, `SetCriterion.loss_edges`; `graph_infer.py`, `graph_infer` |
-| G-VARR adaptive predicate calibration | `cmdpg/groundingdino/models/GroundingDINO/losses.py`, `SetCriterion.gvarr_calibrate` |
+| Text self-attention in D-SGOD | `transformer.py`, `TransformerEncoder.text_layers` |
+| C-MME | `transformer.py`, `BiAttentionBlock` / `TransformerEncoder.fusion_layers` |
+| Deformable visual self-attention | `transformer.py`, `DeformableTransformerEncoderLayer` |
+| D-SGOD decoder | `transformer.py`, `TransformerDecoder` |
+| G-VRD module definition | `groundingdino.py`, `GroundingDINO.__init__` |
+| G-VRD visual branch / Eq. (10) | `losses.py`, `SetCriterion.build_pair_relation_feature`; `graph_infer.py`, `graph_infer` |
+| G-VRD geometric branch | `spatial.py`, `compute_spatial_encodings`; `groundingdino.py`, `spatial_head` / `spatial_head_ovr` |
+| Visual-geometric fusion | `losses.py`, `SetCriterion.loss_edges`; `graph_infer.py`, `graph_infer` |
+| Open-vocabulary relation-text similarity | `losses.py`, `SetCriterion.loss_edges`; `graph_infer.py`, `graph_infer` |
+| G-VARR adaptive predicate calibration | `losses.py`, `SetCriterion.gvarr_calibrate` |
 | OVD/OVR label filtering for VG | `datasets/vg.py`, `VGDataset` / `load_graphs` |
 | OVD/OVR label filtering for PhysScene | `datasets/phys_scene.py`, `PhysSceneDataset._parse_record` |
 
