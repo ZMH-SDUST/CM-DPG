@@ -357,7 +357,7 @@ We also provide video-level split lists for PhysScene to support reproducible ev
 
 **The dataset loading and split settings for both Visual Genome and PhysScene can be accessed in the files under the `datasets/` directory.**
 
-## Training
+### (4) Training
 
 ### CS-SGG on PhysScene
 
@@ -365,21 +365,27 @@ Use the common CS-SGG config and select PhysScene through command-line arguments
 
 ```bash
 python main.py \
-  --output_dir ./logs/phys_scene_cs_sgg \
-  -c ./config/GroundingDINO_SwinT_Cs-SGG.py \
-  --data_path ./data/phys_scene \
-  --dataset_file phys_scene \
-  --pretrain_model_path ./GroundingDINO/weights/groundingdino_swint_ogc.pth \
-  --num_workers 0 \
-    --seed 1234 \
-  --options \
-    batch_size=4 \
-    num_rln_cat=25 \
-    rln_freq_bias=data/phys_scene/phys_scene_stats.pt \
-    phys_scene_split_seed=1234 \
-    phys_scene_test_ratio=0.2 \
-    phys_scene_val_ratio=0.1 \
-    phys_scene_regenerate_split=False
+ --output_dir
+./logs/phys_scene_swinB_full
+-c
+./config/SwinB_phys_full.py
+--data_path
+./data
+--dataset_file
+phys_scene
+--pretrain_model_path
+./checkpoints/swinb_cogcorr.pth
+--num_workers
+4
+--options
+dn_scalar=100
+embed_init_tgt=TRUE
+dn_label_coef=1.0
+dn_bbox_coef=1.0
+use_ema=False
+dn_box_noise_scale=1.0
+eval_before_train=False
+batch_size=2
 ```
 
 By switching the configuration file from Cs-SGG to OvD-SGG or OvR-SGG, training or testing under other forms of supervision can be performed.
