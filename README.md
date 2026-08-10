@@ -76,7 +76,7 @@ Our dataset covers 4 fundamental physics experiments:
 - **Surface Tension Measurement**
 - **Rigid Body Inertia Determination**
 
-## 🧱 Objects & Relations Overview
+### 🧱 Objects & Relations Overview
 
 <p align="center">
   <img src="imgs/1.png" alt="Dataset Overview" width="600">
@@ -88,27 +88,27 @@ Our dataset covers 4 fundamental physics experiments:
   <img src="imgs/3.png" alt="Dataset Overview" width="600">
 </p>
 
-## 🎥 Collection Settings
-- **To ensure high-quality and diverse visual data, we collected images across various laboratory environments with differences in angle, lighting, operator behavior, and experiment configurations.**
-- **A multi-stage data cleaning pipeline was applied to remove blurry, obstructed, out-of-focus, and duplicated samples.**
-- **The figure below provides a visual overview of these components.**
+### 🎥 Collection Settings
+- To ensure high-quality and diverse visual data, we collected images across various laboratory environments with differences in angle, lighting, operator behavior, and experiment configurations.
+- A multi-stage data cleaning pipeline was applied to remove blurry, obstructed, out-of-focus, and duplicated samples.
+- The figure below provides a visual overview of these components.
 
 <p align="center">
   <img src="imgs/物理实验多样性采集.jpg" alt="Dataset Overview" width="700">
 </p>
 
 
-## ⬇️ Download Links
+### ⬇️ Download Links
 
 | Type        | Link |
 |-------------|------|
 | **Images**      | 👉 [Download Here](https://drive.google.com/file/d/1TFqrm0HJSXRIGNiXXGiQIR3Qp6FmW4M9/view?usp=sharing) |
 | **Annotations** | 👉 [Download Here](https://drive.google.com/file/d/15YuzKB8s9RPYN30GzbgEJHAmcseA0aWP/view?usp=drive_link) |
 
-## 👪 Team
-**Data collection and annotation were led by Minghao Zou, with contributions from Aihang Jiang, Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu.**
+### 👪 Team
+Data collection and annotation were led by Minghao Zou, with contributions from Aihang Jiang, Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu.
 
-**We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.**
+We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.
 
 # 📥  2. Baselines
 
