@@ -158,25 +158,23 @@ The `./Baselines/Experimental Settings.md` file documents the details of our exp
 - experimental hardware;
 - data splitting.
 
-## 📥 3. Our Method (CM-DPG Model)
+## 📥 3. CM-DPG Model
 
 ### Setup
 
 Install PyTorch and project dependencies:
 
 ```bash
-pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+conda create -n env_name python==3.8
+conda activate env_name
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
-```
-
-Install the local GroundingDINO package:
-
-```bash
-cd GroundingDINO && python3 setup.py install
+cd ./cmdpg
+python setup.py install
 cd ..
 ```
 
-Download GroundingDINO pretrained weights:
+Download pretrained weights:
 
 ```bash
 mkdir -p $PWD/GroundingDINO/weights/
