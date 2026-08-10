@@ -503,7 +503,7 @@ use_test_set=True
 
 #### OVR-SGG on PhysScene
 
-```text
+```bash
 python main.py \
 --output_dir
 ./logs/phys_scene_swinb_ovr_eval
