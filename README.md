@@ -1,13 +1,15 @@
 # Modeling Scientific Experiment Scenes: Dataset and Model
 
-This repository contains the official implementation and resources for **CM-DPG**, an extended project built upon **PhysScene**, a scene graph dataset for scientific visual reasoning in physics experiment scenes.
+This repository contains the official implementation and resources for the paper **Modeling Scientific Experiment Scenes: Dataset and Model**.
 
-The project consists of two connected parts:
+Building upon the **PhysScene** dataset, this work further investigates two key challenges in scientific experiment scene graph generation: **long-tailed predicate distributions** and the **visual-textual semantic gap**. Based on this analysis, we propose **CM-DPG**, a cross-modal dual-path framework designed to improve relation reasoning and open-vocabulary generalization in physics experiment scenes.
 
-- **PhysScene Dataset**: a scientific scene graph benchmark for physics experiment scenarios.
-- **CM-DPG Model**: a cross-modal dual-path framework designed to address long-tailed predicate distributions and the visual-textual semantic gap in open-vocabulary scene graph generation.
+The repository consists of three connected parts:
 
-## 📢 Publication Notice
+- **PhysScene Dataset**: the dataset, annotations, category definitions, and data documentation for scientific scene graph generation in physics experiment scenarios.
+- **PhysScene Baselines**: baseline implementations, configurations, and evaluation protocols used to benchmark representative scene graph generation methods on PhysScene.
+- **CM-DPG Model**: the proposed cross-modal dual-path framework designed to address long-tailed predicate distributions and the visual-textual semantic gap.
+
 
 The **PhysScene dataset paper** has been accepted by the **ACM International Conference on Multimedia (ACM MM 2026) Dataset Track**.
 
