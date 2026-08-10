@@ -190,8 +190,8 @@ After downloading, the project should be organized as follows:
 ```bash
 CM-DPG/
 ├── checkpoints/
-│   ├── groundingdino_swint_ogc.pth
-│   └── groundingdino_swinb_cogcoor.pth
+│   ├── swint_ogc.pth
+│   └── swinb_cogcoor.pth
 ├── config/
 ├── data/
 ├── datasets/
