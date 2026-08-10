@@ -202,9 +202,7 @@ mkdir data
 
 #### Visual Genome
 
-Download the processed Visual Genome data from:
-
-[https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz](https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz)
+Download the processed Visual Genome data from [here](https://huggingface.co/JosephZ/OvSGTR/resolve/main/vg_data.tar.gz)
 
 After downloading, extract `vg_data.tar.gz` and place the extracted `visual_genome/` folder under `data/`.
 
