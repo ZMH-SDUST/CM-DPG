@@ -110,27 +110,26 @@ Data collection and annotation were led by Minghao Zou, with contributions from 
 
 We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.
 
-# 📥  2. Baselines
+## 📥  2. Baselines
 
-**We benchmarked 11 open-source Scene Graph Generation (SGG) models on the PhysScene dataset.**
+We benchmarked 11 open-source Scene Graph Generation (SGG) models on the PhysScene dataset.
 
-**The `./Baselines` directory provides the official resources for all evaluated models, including:**
+The `./Baselines` directory provides the official resources for all evaluated models, including:
 
-- **project websites or code repositories;**
-- **corresponding papers;**
-- **citation information.**
+- project websites or code repositories;
+- corresponding papers;
+- citation information.
 
-**All baseline models were evaluated using the benchmark settings specified in their official implementations.**
+All baseline models were evaluated using the benchmark settings specified in their official implementations.
 
-**The `./Baselines/Experimental Settings.md` file documents the details of our experimental setup, including:**
+The `./Baselines/Experimental Settings.md` file documents the details of our experimental setup, including:
 
-- **hyperparameter configuration;**
-- **experimental hardware;**
-- **data splitting details for Cs-SGG, OvD-SGG, and OvR-SGG settings.**
+- hyperparameter configuration;
+- experimental hardware;
 
-# 📥 3. Our Method (CM-DPG Model)
+## 📥 3. Our Method (CM-DPG Model)
 
-## Setup
+### Setup
 
 Install PyTorch and project dependencies:
 
