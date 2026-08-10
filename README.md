@@ -156,6 +156,7 @@ The `./Baselines/Experimental Settings.md` file documents the details of our exp
 
 - hyperparameter configuration;
 - experimental hardware;
+- data splitting.
 
 ## 📥 3. Our Method (CM-DPG Model)
 
