@@ -375,6 +375,8 @@ The core implementation files of CM-DPG are located under the model and dataset 
 | OVD/OVR label filtering for VG | `datasets/vg.py`, `VGDataset` / `load_graphs` |
 | OVD/OVR label filtering for PhysScene | `datasets/phys_scene.py`, `PhysSceneDataset._parse_record` |
 
+**Module definitions and their corresponding implementations are also annotated in the code and described in the paper to facilitate understanding and reproducibility.**
+
 ### (5) Training
 
 #### CS-SGG on PhysScene
