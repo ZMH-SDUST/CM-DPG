@@ -306,9 +306,15 @@ The dataset split is defined as follows:
 
 In the CS-SGG setting, all object categories and relation categories are used for training and evaluation.
 
-In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, annotations are restricted to base object categories, while validation and test keep the full object label space.
+In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, annotations are restricted to base object categories, while validation and test keep the full object label space. The unseen object category IDs used in OVD-SGG are:
+```text
+[9, 10, 11, 20, 22, 23, 26, 27, 28, 37, 38, 40, 41, 45, 52, 53, 54, 57, 58, 60, 61, 64, 66, 74, 78, 87, 91, 95, 97, 99, 111, 112, 113, 115, 121, 124, 126, 127, 134, 135, 136, 144, 145, 149, 150]
+```
 
-In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, annotations containing unseen relation categories are removed, while validation and test keep the full relation label space.
+In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, annotations containing unseen relation categories are removed, while validation and test keep the full relation label space. For Visual Genome, the unseen relation category IDs used in OVR-SGG are:
+```text
+[7, 9, 14, 16, 22, 30, 31, 34, 36, 37, 38, 39, 45, 46, 49]
+```
 
 The exact base/unseen label sets follow the configuration and label mapping files provided with the project.
 
@@ -330,9 +336,15 @@ The default split ratio is:
 
 In the CS-SGG setting, all object categories and relation categories are used for training and evaluation.
 
-In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, objects belonging to unseen categories are removed from the training annotations, while validation and test keep the full object label space.
+In the OVD-SGG setting, approximately 30% of the object categories are treated as unseen object classes. During training, objects belonging to unseen categories are removed from the training annotations, while validation and test keep the full object label space. The unseen object category IDs used in OVD-SGG are:
+```text
+[2, 21, 24, 27, 28, 30, 31, 32, 33, 34]
+```
 
-In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, relations belonging to unseen categories are removed from the training annotations, while validation and test keep the full relation label space.
+In the OVR-SGG setting, approximately 30% of the relation categories are treated as unseen relation classes. During training, relations belonging to unseen categories are removed from the training annotations, while validation and test keep the full relation label space. The unseen relation category IDs used in OVR-SGG are:
+```text
+[4, 5, 9, 10, 12, 13, 16, 25, 28, 30, 35, 39]
+```
 
 The exact base/unseen label sets are defined in the configuration files and the label mapping files released with PhysScene.
 
@@ -343,6 +355,7 @@ We also provide video-level split lists for PhysScene to support reproducible ev
 | Video-level split list 1 | [Download](https://drive.google.com/file/d/1ajiVJV5ckh43GZWTkC1EQFBMaJmg233W/view?usp=drive_link) |
 | Video-level split list 2 | [Download](https://drive.google.com/file/d/1Q38ds7et0LjlFyLv8clHX9gfLC0rldX4/view?usp=drive_link) |
 
+**The dataset loading and split settings for both Visual Genome and PhysScene can be accessed in the files under the `datasets/` directory.**
 
 ## Training
 
