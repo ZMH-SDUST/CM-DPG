@@ -112,7 +112,11 @@ The annotation package contains one JSON file and two CSV mapping files.
 ### 👪 Team
 Data collection and annotation were led by Minghao Zou, with contributions from Aihang Jiang, Chenxi Zhao, Rui Cao, Fan Zhao, Xianwei Lu, Xiangdong Long, Wenjing Liu, Canchen Zhang, Wenbo Bai, Ruijun Guo, Rongkun Wang, and Jia Pu. We also extend our sincere gratitude to Yongping Miao, director of the Physics Experiment Center, for his invaluable guidance throughout the entire process.
 
-### License
+### 🛡️ Ethics & Data Governance
+
+This dataset involves human participants in both data collection and recording processes. We take ethical considerations, privacy protection, and responsible data usage seriously.
+
+#### License
 
 PhysScene is released under the CC BY-NC 4.0 License. The dataset may be used for non-commercial research and academic purposes with appropriate attribution. Commercial use is prohibited without prior permission. Users are expected to:
 
@@ -120,19 +124,19 @@ PhysScene is released under the CC BY-NC 4.0 License. The dataset may be used fo
 * **Avoid attempts to identify or contact participants**
 * **Comply with all applicable laws and institutional guidelines**
 
-### Human Subjects
+#### Human Subjects
 
 Participants were informed about the purpose and procedure of the data collection in advance. Participation was voluntary, and individuals had the right to decline or withdraw at any time.
 
-### Privacy & Anonymization
+#### Privacy & Anonymization
 
 All data has been reviewed to minimize personally identifiable information.
 
-### Ethical Compliance
+#### Ethical Compliance
 
 The data collection process follows standard ethical guidelines for human-subject research.
 
-### Release Status
+#### Release Status
 
 The current version of the dataset has been fully released. Additional experimental types and more comprehensive annotations will be continuously updated and made available at this repository.
 
