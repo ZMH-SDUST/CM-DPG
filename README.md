@@ -31,13 +31,13 @@ If you use the PhysScene dataset, please cite:
 }
 ```
 
-# 📥 1. PhysScene dataset
+## 📥 1. PhysScene dataset
 
-## 📘 Experimental Manual
+### 📘 Experimental Manual
 
-**We adopt the textbook “University Physics Experiments” published by China University of Mining and Technology Press, a widely used “13th Five-Year Plan” higher-education textbook in China.**
+We adopt the textbook “University Physics Experiments” published by China University of Mining and Technology Press, a widely used “13th Five-Year Plan” higher-education textbook in China.
 
-**The manual includes comprehensive descriptions of physics experiments:**
+The manual includes comprehensive descriptions of physics experiments:
 
 - 🧰 **Experimental instrument**
 - 🎯 **Experimental purpose**
@@ -45,17 +45,17 @@ If you use the PhysScene dataset, please cite:
 - ▶️ **Operational procedures**
 - ⚠️ **Precautions and notes**
 
-**The following figure shows the cover of the *University Physics Experiments* manual and a summary page of one representative experiment. These pages illustrate the structured descriptions—purposes, instruments, procedures, and operation flows—that serve as the foundation for the PhysScene dataset design and annotation.**
+The following figure shows the cover of the *University Physics Experiments* manual and a summary page of one representative experiment. These pages illustrate the structured descriptions—purposes, instruments, procedures, and operation flows—that serve as the foundation for the PhysScene dataset design and annotation.
 
 <p align="center">
   <img src="imgs/ins.svg" alt="Dataset Overview" width="900">
 </p>
 
-## 🔍 Sample Manual for the Object Density Measurement Experiment
+###   🔍 Sample Manual for the Object Density Measurement Experiment
 
-**To view the full instructions for all experiments, please refer to the complete manual.**
+To view the full instructions for all experiments, please refer to the complete manual.
 
-**Below is a sample set of pages from the manual.**
+Below is a sample set of pages from the manual.
 
 <p align="center">
   <img src="imgs/1.jpg" alt="Dataset Overview" width="900">
@@ -67,9 +67,9 @@ If you use the PhysScene dataset, please cite:
   <img src="imgs/3.jpg" alt="Dataset Overview" width="900">
 </p>
 
-## 🧪 Experimental Categories
+### 🧪 Experimental Categories
 
-**Our dataset covers 4 fundamental physics experiments:**
+Our dataset covers 4 fundamental physics experiments:
 
 - **Object Density Measurement**
 - **Spectrometer-Based Measurement**
